@@ -98,3 +98,7 @@ article h2 {
     text-shadow: 2px 2px 2px black;
     letter-spacing: 2px;
 }
+
+a{
+    color:rgb(83, 82, 82);
+}
