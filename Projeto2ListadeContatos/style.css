@@ -60,3 +60,16 @@ body{
     margin:5px 0 0;
     color: #aaa;
 }
+
+.list-item:hover{
+    background-color: #e8e8e8;
+}
+
+.list-item__action{ 
+    gap:16px;
+    align-items: center;
+    opacity:0;
+}
+.list-item:hover .list-item__action{  
+    opacity: .3;
+}
