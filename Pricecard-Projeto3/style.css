@@ -67,6 +67,8 @@ a.header__nav--active{
     padding:30px;
     border-radius:6px;
     box-shadow: 0 5px 15px -6px #A029EB;
+    display:flex;
+    flex-direction: column;
 }
 
 .pricing-plan__title{
@@ -83,4 +85,34 @@ a.header__nav--active{
 
 .pricing-plan__price{
     font-size:34px;
+}
+
+.pricing-plan__features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex:1;
+}
+
+.pricing-plan__features li::marker{
+    color:#A029EB;
+}
+
+.princing-plan__cta{
+    text-decoration: none;
+    color:#0c1014;
+    background-color: #A029EB;
+    border-radius:6px;
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: bold;
+    padding:16px 10px;
+    text-align: center;   
+}
+
+.princing-plan__cta:hover{
+    outline: 2px solid #A029EB;
+    background-color: transparent;
+    color:white;
 }
