@@ -5,6 +5,7 @@
 }
 body{
     background-color: #444856;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #topo{
     background-color: var(--secondary-color);
@@ -32,5 +33,6 @@ p{
 
 #links{
     color:#e7e7e7;
+    text-decoration: none;
     
 }
