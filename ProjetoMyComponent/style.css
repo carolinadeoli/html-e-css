@@ -1,6 +1,7 @@
 :root{
     --primary-color: #FF7833;
     --secondary-color:#31333B;
+    --secondary-color-light:#444856;
 }
 body{
     background-color: #444856;
@@ -9,12 +10,27 @@ body{
     background-color: var(--secondary-color);
     
 }
+#imagem{
+    max-width:10rem;
+}
 #item{
     color:white;
+}
+#menu #item:hover{
+    background-color: var(--secondary-color-light);
 }
 h1, h2, h3{
     color:var(--primary-color);
 }
+h1{
+    font-size:2.8rem;
+    color:#a9a7a7;
+}
 p{
     color:#e7e7e7;
+}
+
+#links{
+    color:#e7e7e7;
+    
 }
