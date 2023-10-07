@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #612674;
+}
+
+body{
+    font-family: sans-serif;
+}
+#menu a{
+    color: var(--primary-color);
+}
+#menuMobile{
+    background-color: var(--primary-color);
+}
+#mobile a{
+    color:white;
+}
+#mobile a:hover{
+    background-color: #441b52;
+}
