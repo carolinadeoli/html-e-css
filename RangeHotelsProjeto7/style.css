@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 :root{
     --primary-color: #612674;
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 #menu a{
     color: var(--primary-color);
@@ -17,3 +18,26 @@ body{
 #mobile a:hover{
     background-color: #441b52;
 }
+.bannerTitle{
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #612674;
+}
+.bannerSubtitle{
+    font-weight: 400;
+    font-size:1.4em;
+    color: color-mix(in srgb, var(--primary-color), white);
+}
+.banner{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding:1em;
+    
+}
+
+/* @media screen and (min-width:48.75em){
+    .banner{
+        background-color: var(--primary-color);
+        color:white;
+    }
+} */
