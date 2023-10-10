@@ -6,6 +6,7 @@
 body{
     font-family: 'Oxygen', sans-serif;
 }
+
 #menu a{
     color: var(--primary-color);
     font-weight: bold;
