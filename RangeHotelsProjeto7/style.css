@@ -8,6 +8,7 @@ body{
 }
 #menu a{
     color: var(--primary-color);
+    font-weight: bold;
     
 }
 #menuMobile{
@@ -15,6 +16,7 @@ body{
 }
 #mobile a{
     color:white;
+    font-weight: bold;
 }
 #mobile a:hover{
     background-color: #441b52;
@@ -30,7 +32,7 @@ body{
     color: white;
     /* color: color-mix(in srgb, var(--primary-color), white); */
 }
-.banner{
+#banner{
     text-align: center;
     padding:1em;
     background-color: #f6f6f6;
@@ -57,17 +59,19 @@ body{
     text-align: center;
 }
 
-h3{
+.tituloMain{
     color:var(--primary-color);
     font-weight: bold;
+    letter-spacing: 2px;
     
 }
 
 
 @media screen and (min-width:300px) and (max-width:767px){
-    .banner{
+    #banner{
         background-color: var(--primary-color);
         color: white;
+        margin-top: 1em;
         
     }
     .bannerTitle{
@@ -79,15 +83,14 @@ h3{
     .icons{
         padding-left: 10em;
     }
-    img{
-        gap:2em;
-    }
+   
 }
 @media screen and (min-width:768px) {
-    .banner{
+    #banner{
         background-image: url(images/bg_topo_1198x670.jpg);
         background-size: cover;
         background-position: center top;
+        
         
     }
     
