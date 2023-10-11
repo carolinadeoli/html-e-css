@@ -89,6 +89,7 @@ body{
 @media screen and (min-width:300px) and (max-width:767px){
     #banner{
         background-color: var(--primary-color);
+        background-image: url(images/bg_topo_1198x670.jpg);
         color: white;
         margin-top: 1em;
         padding: 3em;
