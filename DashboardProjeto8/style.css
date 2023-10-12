@@ -3,6 +3,16 @@
 *{
     font-family: 'Poppins', sans-serif;;
 }
+#profile,#settings{
+    color: #b3acac;
+}
+#profile,#settings:hover{
+    color: #8b8585;
+}
+#title{
+    margin-left: .5em;
+    font-weight: 300;    
+}
 .nav-link{
     color:#b3acac;
 }
@@ -11,4 +21,7 @@
 }
 #logout{
     padding-top: 35em;
+}
+main{
+    color:gray;
 }
