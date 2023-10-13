@@ -9,12 +9,17 @@
 #profile,#settings:hover{
     color: #8b8585;
 }
-#title{
-    margin-left: .5em;
-    font-weight: 300;    
+.menu{
+    list-style: none;
+}
+#menuTitle{
+    text-decoration: none;
+    color:black; 
+    margin-left: .5em;  
 }
 .nav-link{
     color:#b3acac;
+    
 }
 .nav-link:hover{
     color:#8b8585;
