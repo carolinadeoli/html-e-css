@@ -7,6 +7,7 @@
     --primary-color: #004EDA;
     --gray:#F2F2F8;
     --black:#111;
+    --color-text: #5a5a5f;
     --default-padding:2rem;
 }
 body{
@@ -18,7 +19,7 @@ body{
 .mainNav{
     grid-row: 1 / -1;
     grid-column: 1 / 2;
-    background-color: rgb(240, 236, 236);
+    background-color:white;
     display:flex;
     flex-direction: column;
 }
@@ -67,8 +68,7 @@ body{
     display:inline-block; 
 }
 .nav-link{
-    color:#5a5a5f;
-    
+    color:var(--color-text);
     
 }
 .nav-link:hover{
@@ -84,8 +84,26 @@ main{
    grid-row: 2 / -1;
    grid-column: 2 / -1;
    background-color: var(--gray);
+   display:grid;
+   gap:var(--default-padding);
+   grid-template-columns: 1fr 1fr;
+   grid-auto-rows: min-content;
+   padding: var(--default-padding);
 }
-
+main >* {
+    grid-column: span 2;
+}
+main>.grid-half{
+    grid-column: span 1;
+}
+.summary{
+    color:var(--color-text);
+    background-color: white;
+}
+.number{
+    color:var(--primary-color);
+    font-weight: bolder;
+}
 img{
     max-width: 100%;
 }
@@ -101,4 +119,5 @@ img{
     font-size:.7rem;
     font-weight: 500;
     text-transform: uppercase;
+    color:color-mix(in srgb, var(--black), transparent 60%);
 }
