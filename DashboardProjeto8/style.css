@@ -99,10 +99,27 @@ main>.grid-half{
 .summary{
     color:var(--color-text);
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--default-padding)/2) var(--default-padding);
+    border-radius: 4px;
+}
+.summary article{
+    padding: calc(var(--default-padding)/2) 0;
+}
+.separated{
+    width: 2px;
+    background-color: var(--gray);
+    align-self: stretch;
+}
+.description{
+    font-size:1.2rem;
 }
 .number{
     color:var(--primary-color);
     font-weight: bolder;
+    font-size:1.5rem;
 }
 img{
     max-width: 100%;
