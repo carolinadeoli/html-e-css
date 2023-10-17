@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700;900&family=Oxygen:wght@300;400;700&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
 #logo{
     max-width: 110px;
 }
 
+.nav-link{
+    color:black;
+}
+h1{
+    font-weight: 700;
+}
 #ad{
     text-align: center;
 }
 #empresas img{
-    max-width:110px;
+    max-width:110px;   
+}
+#arrow{
+    max-width: 20px;
+}
+#titleClients{
+    text-align: center;
+    
+}
+
+.nameClient, .opinion{
+    text-align: center;
     
 }
