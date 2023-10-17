@@ -1,6 +1,11 @@
 #logo{
     max-width: 110px;
 }
-#empresas{
-    background-color: gray;
+
+#ad{
+    text-align: center;
+}
+#empresas img{
+    max-width:110px;
+    
 }
