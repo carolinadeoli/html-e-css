@@ -24,7 +24,11 @@ h1{
     color:var(--light);
 }
 #ad{
+    color: var(--primary-color-dark);
     text-align: center;
+}
+#empresas{
+    background-color: var(--gray);
 }
 #empresas img{
     max-width:110px;   
@@ -36,9 +40,15 @@ h1{
     text-align: center;
     
 }
+#clients{
+    background-color: var(--gray);
+}
 .nameClient, .opinion{
     text-align: center;
     
+}
+.opinion{
+    color:var(--primary-color-dark);
 }
 #company ,#contato{
     font-weight: bolder;
@@ -51,4 +61,7 @@ h1{
 #copyright{
     text-align: center;
     font-size:0.9em;
+}
+.footer{
+    background-color: var(--gray);
 }
