@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700;900&family=Oxygen:wght@300;400;700&display=swap');
+:root{
+    --dark: #272D38;
+    --light: #FFF;
+    --primary-color: #8EADD5;
+    --primary-color-dark: #3f3f3f;
+    --gray: #F6F6F6;
+}
 *{
     font-family: 'Inter', sans-serif;
 }
@@ -11,6 +18,10 @@
 }
 h1{
     font-weight: 700;
+}
+#btnColor{
+    background-color: var(--primary-color);
+    color:var(--light);
 }
 #ad{
     text-align: center;
