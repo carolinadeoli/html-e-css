@@ -36,8 +36,19 @@ h1{
     text-align: center;
     
 }
-
 .nameClient, .opinion{
     text-align: center;
     
+}
+#company ,#contato{
+    font-weight: bolder;
+}
+.companyLinks{
+    display: block;
+    text-decoration: none;
+    color:var(--dark);    
+}
+#copyright{
+    text-align: center;
+    font-size:0.9em;
 }
